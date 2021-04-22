@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<TableView maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8"
+fx:controller="com.stephen.learning.controller.UserController" fx:id="userTable">
+  <columns>
+    <TableColumn prefWidth="75.0" text="姓名" />
+    <TableColumn prefWidth="75.0" text="性别" />
+      <TableColumn prefWidth="75.0" text="年龄" />
+      <TableColumn prefWidth="75.0" text="邮箱" />
+      <TableColumn prefWidth="75.0" text="地址" />
+  </columns>
+</TableView>
